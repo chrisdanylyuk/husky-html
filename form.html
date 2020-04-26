@@ -14,11 +14,14 @@
     <nav>
     <a href="index.html">На головну</a>
     </nav>
-</header>
+    </header>
     <main>
-    <h2>Тест - чи підходить мені хаскі?</h2>
     <form action="https://formspree.io/mpzyaabv" method="POST">
-    <p>Як рано Ви здатні прокидатися?</p>
+    <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
+    <label><input type="image"name="search" src="img/search.png" alt="search-icon" ></label>
+    <br>
+    <h2>Тест - чи підходить мені хаскі?</h2>
+        <p>Як рано Ви здатні прокидатися?</p>
         <ol>
         <li><label><input type="radio" name="test1" value="1" required>я "жайворонок" і встати в 6 ранку для мене - не проблема;</label></li>
         <li><label><input type="radio" id="b" name="test1" value="2">я "сова" і насилу піднімаюся на роботу / навчання.</label></li>
@@ -48,11 +51,8 @@
         <li><label><input type="radio" name="test5" value="3">тим, що самі їмо, що її балувати;</label></li>
         <li><label><input type="radio" name="test5" value="4">недорогим собачим кормом.</label></li>
         </ol>
-    <br>
-    <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
-    <label><button type="submit">Search</button></label>
-    <br>
-    <label> Оберіть Вашу стать<select name="gender" id="gender" size="3" value="gender" multiple required>
+    <h3>Для підбиття підсумків результатів заповніть наступну анкету:</h3>
+    <label> Оберіть Вашу стать<select name="gender" id="gender" size="3" required>
         <option value="Жінка">Жінка</option>
         <option value="Чоловік">Чоловік</option>
         <option value="Інше">Інше</option>
@@ -63,33 +63,26 @@
     <br>
     <label>Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
     <br>
-    <label>Введіть Ваш телефон  <input type="number" name="age" required placeholder="Введіть Ваш телефон"></label>
+    <label>Введіть Ваш телефон  <input type="tel" name="tel" required placeholder="Введіть Ваш телефон"></label>
     <br>
     <label>Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
     <br>
-    <label>Введіть Ваш вік  <input type="number" placeholder="Введіть Ваш вік"></label>
+    <label>Введіть Ваш вік  <input type="number" name="age" min="10" max="90" step="1" value="18" placeholder="Введіть Ваш вік"></label>
+    <h3>Якщо у Вас є собака, заповніть наступні форми</h3>
+    <label>Виберіть місяць та рік народження Вашої собаки  <input type="month" id="birtday" name="birthday" value="2020-01-01" min="2005-1-01-01" max="2020-04-26"></label>
     <br>
-    <label>Виберіть Ваш час  <input type="time"></label>
+    <label>Оберіть улюблений колір Вашої собаки  <input type="color" value="red" name="color"></label>
     <br>
-    <label>Виберіть дату та час  <input type="datetime-local"></label>
+    <label>Завантажте Фото Вашої собаки  <input type="file" name="my-file"></label>
     <br>
-    <label>Виберіть дату  <input type="date"></label>
+    <label>Поділіться корисними посиланнями для власників собак  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
     <br>
-    <label>Виберіть тиждень та рік  <input type="week"></label>
+    <p>Коли Вам зручно отримати результати тесту</p>
+    <label>Виберіть дату, коли Вам надіслати результати тесту<input type="date"></label>
     <br>
-    <label>Виберіть місяць та рік  <input type="month"></label>
+    <label>Виберіть час  <input type="time"></label>
     <br>
-    <label>Оберіть колір  <input type="color"></label>
-    <br>
-    <label>Завантажте Ваш файл  <input type="file" name="my-file"></label>
-    <br>
-    <label>Завантажте Ваше фото  <input type="image" name="my-photo" alt="my-photo"></label>
-    <br>
-    <label>Поділіться Вашим посиланням  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
-    <br>
-    <label>Оцініть від 1 до 5 наш сайт: 1<input type="range" min="1" max="5" step="1">5</label>
-    <br>
-    <label>Поділіться Вашими враженнями  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
+    <label>Коментар  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
     <br>
     <label><input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" checked>Підписатись на новини</label>
     <label><input type="checkbox" id="personaldata" name="personaldata" value="personaldata" required>Згода на обробку персональних даних</label>
@@ -97,7 +90,16 @@
     <label><input type="submit"></label>
     <label><input type="reset"></label>
     <br>
-    </form>     
+    </form>
+    <hr>     
    </main>
+   <footer>
+<a href="https://en.wikipedia.org/wiki/Husky"><img src="img/wikipedia.png" alt="wikipedia-logo"></a>
+<a href="https://www.youtube.com/user/gohanthehusky"><img src="img/youtube.png" alt="youtube-logo"></a>
+<a href="https://www.facebook.com/Siberian-Husky-Dogs-151181134907667/"><img src="img/facebook.png" alt="facebook-logo"></a>
+<a href="https://www.instagram.com/explore/tags/husky/"><img src="img/instagram.png" alt="instagam-logo"></a>
+<br>
+© 2020 Christina Danylyuk
+</footer>
 </body>
 </html>
