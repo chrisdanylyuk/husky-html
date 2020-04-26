@@ -18,7 +18,7 @@
     <main>
     <form action="https://formspree.io/mpzyaabv" method="POST">
     <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
-    <label><input type="image"name="search" src="img/search.png" alt="search-icon" ></label>
+    <label><input type="image" name="search" src="img/search.png" alt="search-icon" ></label>
     <br>
     <h2>Тест - чи підходить мені хаскі?</h2>
         <p>Як рано Ви здатні прокидатися?</p>
@@ -69,18 +69,18 @@
     <br>
     <label>Введіть Ваш вік  <input type="number" name="age" min="10" max="90" step="1" value="18" placeholder="Введіть Ваш вік"></label>
     <h3>Якщо у Вас є собака, заповніть наступні форми</h3>
-    <label>Виберіть місяць та рік народження Вашої собаки  <input type="month" id="birtday" name="birthday" value="2020-01-01" min="2005-1-01-01" max="2020-04-26"></label>
+    <label>Виберіть місяць та рік народження Вашої собаки  <input type="month" id="birtday" name="birthday" gitmin="2005-01-01" max="2020-04-26"></label>
     <br>
-    <label>Оберіть улюблений колір Вашої собаки  <input type="color" value="red" name="color"></label>
+    <label>Оберіть улюблений колір Вашої собаки  <input type="color" value="#FF0000" name="color"></label>
     <br>
-    <label>Завантажте Фото Вашої собаки  <input type="file" name="my-file"></label>
+    <label>Завантажте Фото Вашої собаки  <input type="file" name="my-file" accept="media_type" multiple></label>
     <br>
     <label>Поділіться корисними посиланнями для власників собак  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
     <br>
-    <p>Коли Вам зручно отримати результати тесту</p>
-    <label>Виберіть дату, коли Вам надіслати результати тесту<input type="date"></label>
+    <h3>Коли Вам зручно отримати результати тесту</h3>
+    <label>Виберіть дату, коли Вам надіслати результати тесту<input type="date" name="date-to-get-results""></label>
     <br>
-    <label>Виберіть час  <input type="time"></label>
+    <label>Виберіть час  <input type="time" name="time-to-get-results" value="18:00" min="10:00" max="20^00"></label>
     <br>
     <label>Коментар  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
     <br>
