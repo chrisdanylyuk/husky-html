@@ -8,11 +8,14 @@
     <title>Husky feedback</title>
 </head>
 <body>
+<header>
     <h2>Зворотній зв'язок</h2>
     <hr>
     <nav>
     <a href="index.html">На головну</a>
     </nav>
+</header>
+    <main>
     <h2>Тест - чи підходить мені хаскі?</h2>
     <form action="https://formspree.io/mpzyaabv" method="POST">
     <p>Як рано Ви здатні прокидатися?</p>
@@ -48,38 +51,43 @@
         </ol>
     <br>
     <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
-    <label><input type="botton" formtarget="_blank" value="search"></label>
+
     <br>
-    <label>Введіть Ваше ім'я  <input type="text" name="user" required placeholder="Введіть Ваше ім'я"></label>
+    <label for="text">Введіть Ваше ім'я  <input type="text" name="user" required placeholder="Введіть Ваше ім'я"></label>
     <br>
-    <label>Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
+    <label for="email">Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
     <br>
-    <label>Введіть Ваш телефон  <input type="number" name="age" required placeholder="Введіть Ваш телефон"></label>
+    <label for="number">Введіть Ваш телефон  <input type="number" name="age" required placeholder="Введіть Ваш телефон"></label>
     <br>
-    <label>Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
+    <label for="password">Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
     <br>
-    <label>Введіть Ваш вік  <input type="number" placeholder="Введіть Ваш вік"></label>
+    <label for="number">Введіть Ваш вік  <input type="number" placeholder="Введіть Ваш вік"></label>
     <br>
-    <label>Виберіть Ваш час  <input type="time"></label>
+    <label for="time">Виберіть Ваш час  <input type="time"></label>
     <br>
-    <label>Виберіть дату та час  <input type="datetime-local"></label>
+    <label for="datetime-local">Виберіть дату та час  <input type="datetime-local"></label>
     <br>
-    <label>Виберіть дату  <input type="date"></label>
+    <label for="date">Виберіть дату  <input type="date"></label>
     <br>
-    <label>Виберіть тиждень та рік  <input type="week"></label>
+    <label for="week">Виберіть тиждень та рік  <input type="week"></label>
     <br>
-    <label>Виберіть місяць та рік  <input type="month"></label>
+    <label for="month">Виберіть місяць та рік  <input type="month"></label>
     <br>
-    <label>Оберіть колір  <input type="color"></label>
+    <label for="color">Оберіть колір  <input type="color"></label>
     <br>
-    <label>Завантажте Ваш файл  <input type="file" name="my-file"></label>
+    <label for="file">Завантажте Ваш файл  <input type="file" name="my-file"></label>
     <br>
-    <label>Завантажте Ваше фото  <input type="image" name="my-photo" alt="my-photo"></label>
+    <label for="image">Завантажте Ваше фото  <input type="image" name="my-photo" alt="my-photo"></label>
     <br>
-    <label>Оцініть від 1 до 5 наш сайт: 1<input type="range" min="1" max="5" step="1">5</label>
+    <label for="url">Поділіться Вашим посиланням  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
     <br>
-    <label><input type="submit"></label>
-    <label><input type="reset"></label>
+    <label for="range">Оцініть від 1 до 5 наш сайт: 1<input type="range" min="1" max="5" step="1">5</label>
+    <br>
+    <label for="textarea">Поділіться Вашими враженнями  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
+    <br>
+    <label for ="submit"><input type="submit"></label>
+    <label for="reset"><input type="reset"></label>
    </form>     
+   </main>
 </body>
 </html>
