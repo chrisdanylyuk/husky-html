@@ -10,44 +10,81 @@
 <body>
     <h2>Зворотній зв'язок</h2>
     <hr>
+    <nav>
     <a href="index.html">На головну</a>
+    </nav>
     <h2>Тест - чи підходить мені хаскі?</h2>
     <ol>
     <li>Як рано Ви здатні прокидатися?</li>
         <ol>
-        <form>
-        <li type="a"><label><input type="radio" name="test1-1">я "жайворонок" і встати в 6 ранку для мене - не проблема;</label></li>
-        <li type="a"><label><input type="radio" name="test1-2">я "сова" і насилу піднімаюся на роботу / навчання.</label></li>
+        <form action="https://formspree.io/mpzyaabv" method="POST">
+        <li type="a"><label><input type="radio" name="test1" value="a" required>я "жайворонок" і встати в 6 ранку для мене - не проблема;</label></li>
+        <li type="a"><label><input type="radio" id="b" name="test1" value="b">я "сова" і насилу піднімаюся на роботу / навчання.</label></li>
         </ol>
         <br>
     <li>Як Ви ставитеся до фізкультури і спорту?</li>
         <ol>
-        <li type="a"><label><input type="radio" name="test2-1">я активно займаюся спортом, фізкультурою або фітнесом;</label></li>
-        <li type="a"><label><input type="radio" name="test2-2">я лише люблю дивитися спортивні змагання по телевізору;</label></li>
-        <li type="a"><label><input type="radio" name="test2-3">не цікавлюсь спортом;</label></li>
-        <li type="a"><label><input type="radio" name="test2-4">я поки не займаюся спортом, але готовий заради хаскі освоїти біг, лижі, велосипед.</label></li>
+        <li type="a"><label><input type="radio" name="test2" value="a" required>я активно займаюся спортом, фізкультурою або фітнесом;</label></li>
+        <li type="a"><label><input type="radio" name="test2" value="b">я лише люблю дивитися спортивні змагання по телевізору;</label></li>
+        <li type="a"><label><input type="radio" name="test2" value="c">не цікавлюсь спортом;</label></li>
+        <li type="a"><label><input type="radio" name="test2" value="d">я поки не займаюся спортом, але готовий заради хаскі освоїти біг, лижі, велосипед.</label></li>
         </ol>
         <br>
     <li>Чи здатні ви заради собаки змінити свій розпорядок дня?</li>
         <ol>
-        <li type="a"><label><input type="radio" name="test3-1">так, я готовий поміняти свій щоденний графік, приділяючи прогулянкам з собакою не менше години вранці і години ввечері;</label></li>
-        <li type="a"><label><input type="radio" name="test3-2">ні, мене влаштовує мій розпорядок дня.</label></li>
+        <li type="a"><label><input type="radio" name="test3" value="a" required>так, я готовий поміняти свій щоденний графік, приділяючи прогулянкам з собакою не менше години вранці і години ввечері;</label></li>
+        <li type="a"><label><input type="radio" name="test3" value="b">ні, мене влаштовує мій розпорядок дня.</label></li>
         </ol>
         <br>
     <li>Ви живете в:</li>
         <ol>
-        <li type="a"><label><input type="radio" name="test4-1">орендованій квартирі;</label></li>
-        <li type="a"><label><input type="radio" name="test4-2">власній квартирі;</label></li>
-        <li type="a"><label><input type="radio" name="test4">будинку з ділянкою.</label></li>
+        <li type="a"><label><input type="radio" name="test4" value="a" required>орендованій квартирі;</label></li>
+        <li type="a"><label><input type="radio" name="test4" value="b">власній квартирі;</label></li>
+        <li type="a"><label><input type="radio" name="test4" value="c">будинку з ділянкою.</label></li>
         </ol>
         <br>
     <li>Ви збираєтеся годувати собаку:</li>
         <ol>
-        <li type="a"><label><input type="radio" name="test5">спеціальними повнораціонними сухими кормами для активних собак;</label></li>
-        <li type="a"><label><input type="radio" name="test5">"натуралкою" на основі нежирної яловичини, курятини, каш і овочів;</label></li>
-        <li type="a"><label><input type="radio" name="test5">тим, що самі їмо, що її балувати;</label></li>
-        <li type="a"><label><input type="radio" name="test5">недорогим собачим кормом.</label></li>
+        <li type="a"><label><input type="radio" name="test5" value="a" required>спеціальними повнораціонними сухими кормами для активних собак;</label></li>
+        <li type="a"><label><input type="radio" name="test5" value="b">"натуралкою" на основі нежирної яловичини, курятини, каш і овочів;</label></li>
+        <li type="a"><label><input type="radio" name="test5" value="c">тим, що самі їмо, що її балувати;</label></li>
+        <li type="a"><label><input type="radio" name="test5" value="d">недорогим собачим кормом.</label></li>
         </ol>
+        <br>
+
+    <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту">
+    <input type="botton" value="Шукати"></label>
+    <br>
+    <label>Введіть Ваше ім'я  <input type="text" name="user" required placeholder="Введіть Ваше ім'я"></label>
+    <br>
+    <label>Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
+    <br>
+    <label>Введіть Ваш телефон  <input type="number" name="age" required placeholder="Введіть Ваш телефон"></label>
+    <br>
+    <label>Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
+    <br>
+    <label>Введіть Ваш вік  <input type="number" placeholder="Введіть Ваш вік"></label>
+    <br>
+    <label>Виберіть Ваш час  <input type="time"></label>
+    <br>
+    <label>Виберіть дату та час  <input type="datetime-local"></label>
+    <br>
+    <label>Виберіть дату  <input type="date"></label>
+    <br>
+    <label>Виберіть тиждень та рік  <input type="week"></label>
+    <br>
+    <label>Виберіть місяць та рік  <input type="month"></label>
+    <br>
+    <label>Оберіть колір  <input type="color"></label>
+    <br>
+    <label>Завантажте Ваш файл  <input type="file" name="my-file"></label>
+    <br>
+    <label>Завантажте Ваше фото  <input type="image" name="my-photo" value="my-photo"></label>
+    <br>
+    <label>Оцініть від 1 до 5 наш сайт: 1<input type="range" min="1" max="5" step="1">5</label>
+    <br>
+    <label><input type="submit"></label>
+    <label><input type="reset"></label>
 
    </form>     
 </body>
