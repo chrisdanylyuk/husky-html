@@ -1,106 +1,118 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="img/husky-icon.png">
-    <title>Husky feedback</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="img/husky-icon.png">
+	<title>Husky feedback</title>
 </head>
+
 <body>
-<header>
-    <h2>Тест - чи підходить мені хаскі?</h2>
-    <hr>
-    <nav>
-    <a href="index.html">На головну</a>
-    </nav>
-    </header>
-    <main>
-    <form action="https://formspree.io/mpzyaabv" method="POST">
-    <label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
-    <label><input type="image" name="search" src="img/search.png" alt="search-icon" ></label>
-    <br>
-    <img src="img/husky-puppies2.jpg" alt="five-nice-puppies-on-the-log">
-    <h2>Тест - чи підходить мені хаскі?</h2>
-        <p>Як рано Ви здатні прокидатися?</p>
-        <ol>
-        <li><label><input type="radio" name="test1" value="1" required>я "жайворонок" і встати в 6 ранку для мене - не проблема;</label></li>
-        <li><label><input type="radio" id="b" name="test1" value="2">я "сова" і насилу піднімаюся на роботу / навчання.</label></li>
-        </ol>
-    <p>Як Ви ставитеся до фізкультури і спорту?</p>
-        <ol>
-        <li><label><input type="radio" name="test2" value="1" required>я активно займаюся спортом, фізкультурою або фітнесом;</label></li>
-        <li><label><input type="radio" name="test2" value="2">я лише люблю дивитися спортивні змагання по телевізору;</label></li>
-        <li><label><input type="radio" name="test2" value="3">не цікавлюсь спортом;</label></li>
-        <li><label><input type="radio" name="test2" value="4">я поки не займаюся спортом, але готовий заради хаскі освоїти біг, лижі, велосипед.</label></li>
-        </ol>
-    <p>Чи здатні ви заради собаки змінити свій розпорядок дня?</p>
-        <ol>
-        <li><label><input type="radio" name="test3" value="1" required>так, я готовий поміняти свій щоденний графік, приділяючи прогулянкам з собакою не менше години вранці і години ввечері;</label></li>
-        <li><label><input type="radio" name="test3" value="2">ні, мене влаштовує мій розпорядок дня.</label></li>
-        </ol>
-    <p>Ви живете в:</p>
-        <ol>
-        <li><label><input type="radio" name="test4" value="1" required>орендованій квартирі;</label></li>
-        <li><label><input type="radio" name="test4" value="2">власній квартирі;</label></li>
-        <li><label><input type="radio" name="test4" value="3">будинку з ділянкою.</label></li>
-        </ol>
-    <p>Ви збираєтеся годувати собаку:</p>
-        <ol>
-        <li><label><input type="radio" name="test5" value="1" required>спеціальними повнораціонними сухими кормами для активних собак;</label></li>
-        <li><label><input type="radio" name="test5" value="2">"натуралкою" на основі нежирної яловичини, курятини, каш і овочів;</label></li>
-        <li><label><input type="radio" name="test5" value="3">тим, що самі їмо, що її балувати;</label></li>
-        <li><label><input type="radio" name="test5" value="4">недорогим собачим кормом.</label></li>
-        </ol>
-    <h3>Для підбиття результатів тесту заповніть наступну анкету:</h3>
-    <label> Оберіть Вашу стать<select name="gender" id="gender" size="3" required>
+	<header>
+		<h2>Тест - чи підходить мені хаскі?</h2>
+		<hr>
+		<nav>
+			<a href="index.html">На головну</a>
+		</nav>
+	</header>
+	<main>
+		<form action="https://formspree.io/mpzyaabv" method="POST">
+			<label>Пошук по сайту  <input type="search" id="mysearch" name="q" placeholder="Пошук по сайту"></label>
+			<label><input type="image" name="search" src="img/search.png" alt="search-icon" ></label>
+			<br>
+			<img src="img/husky-puppies2.jpg" alt="five-nice-puppies-on-the-log">
+			<h2>Тест - чи підходить мені хаскі?</h2>
+			<p>Як рано Ви здатні прокидатися?</p>
+			<ol>
+				<li><label><input type="radio" name="test1" value="1" required>я "жайворонок" і встати в 6 ранку для мене - не проблема;</label>
+				</li>
+				<li><label><input type="radio" id="b" name="test1" value="2">я "сова" і насилу піднімаюся на роботу / навчання.</label>
+				</li>
+			</ol>
+			<p>Як Ви ставитеся до фізкультури і спорту?</p>
+			<ol>
+				<li><label><input type="radio" name="test2" value="1" required>я активно займаюся спортом, фізкультурою або фітнесом;</label>
+				</li>
+				<li><label><input type="radio" name="test2" value="2">я лише люблю дивитися спортивні змагання по телевізору;</label>
+				</li>
+				<li><label><input type="radio" name="test2" value="3">не цікавлюсь спортом;</label></li>
+				<li><label><input type="radio" name="test2" value="4">я поки не займаюся спортом, але готовий заради хаскі освоїти біг, лижі, велосипед.</label>
+				</li>
+			</ol>
+			<p>Чи здатні ви заради собаки змінити свій розпорядок дня?</p>
+			<ol>
+				<li><label><input type="radio" name="test3" value="1" required>так, я готовий поміняти свій щоденний графік, приділяючи прогулянкам з собакою не менше години вранці і години ввечері;</label>
+				</li>
+				<li><label><input type="radio" name="test3" value="2">ні, мене влаштовує мій розпорядок дня.</label>
+				</li>
+			</ol>
+			<p>Ви живете в:</p>
+			<ol>
+				<li><label><input type="radio" name="test4" value="1" required>орендованій квартирі;</label></li>
+				<li><label><input type="radio" name="test4" value="2">власній квартирі;</label></li>
+				<li><label><input type="radio" name="test4" value="3">будинку з ділянкою.</label></li>
+			</ol>
+			<p>Ви збираєтеся годувати собаку:</p>
+			<ol>
+				<li><label><input type="radio" name="test5" value="1" required>спеціальними повнораціонними сухими кормами для активних собак;</label>
+				</li>
+				<li><label><input type="radio" name="test5" value="2">"натуралкою" на основі нежирної яловичини, курятини, каш і овочів;</label>
+				</li>
+				<li><label><input type="radio" name="test5" value="3">тим, що самі їмо, що її балувати;</label></li>
+				<li><label><input type="radio" name="test5" value="4">недорогим собачим кормом.</label></li>
+			</ol>
+			<h3>Для підбиття результатів тесту заповніть наступну анкету:</h3>
+			<label> Оберіть Вашу стать<select name="gender" id="gender" size="3" required>
         <option value="Жінка">Жінка</option>
         <option value="Чоловік">Чоловік</option>
         <option value="Інше">Інше</option>
     </select>
     </label>
-    <br>
-    <label>Введіть Ваше ім'я  <input type="text" name="user" required placeholder="Введіть Ваше ім'я"></label>
-    <br>
-    <label>Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
-    <br>
-    <label>Введіть Ваш телефон  <input type="tel" name="tel" required placeholder="+38000-000-00-00"></label>
-    <br>
-    <label>Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
-    <br>
-    <label>Введіть Ваш вік  <input type="number" name="age" min="10" max="90" step="1" value="18" placeholder="Введіть Ваш вік" required></label>
-    <h3>Якщо у Вас є собака, заповніть наступні форми</h3>
-    <label>Виберіть місяць та рік народження Вашої собаки  <input type="month" id="birtday" name="birthday"></label>
-    <br>
-    <label>Оберіть улюблений колір Вашої собаки  <input type="color" value="#FF0000" name="color"></label>
-    <br>
-    <label>Завантажте Фото Вашої собаки  <input type="file" name="my-file" accept="image/*" multiple></label>
-    <br>
-    <label>Поділіться корисними посиланнями для власників собак  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
-    <br>
-    <h3>Коли Вам зручно отримати результати тесту</h3>
-    <label>Виберіть дату, коли Вам надіслати результати тесту<input type="date" name="date-to-get-results"></label>
-    <br>
-    <label>Виберіть час  <input type="time" name="time-to-get-results" value="18:00" min="10:00" max="20:00"></label>
-    <br>
-    <label>Коментар  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
-    <br>
-    <label><input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" checked>Підписатись на новини</label>
-    <label><input type="checkbox" id="personaldata" name="personaldata" value="personaldata" required>Згода на обробку персональних даних</label>
-    <br>
-    <label><input type="submit"></label>
-    <label><input type="reset"></label>
-    <br>
+			<br>
+			<label>Введіть Ваше ім'я  <input type="text" name="user" required placeholder="Введіть Ваше ім'я"></label>
+			<br>
+			<label>Введіть Ваш email  <input type="email" name="email" required placeholder="Введіть Ваш email"></label>
+			<br>
+			<label>Введіть Ваш телефон  <input type="tel" name="tel" required placeholder="+38000-000-00-00"></label>
+			<br>
+			<label>Введіть Ваш пароль  <input type="password" name="password" required placeholder="Введіть Ваш пароль"></label>
+			<br>
+			<label>Введіть Ваш вік  <input type="number" name="age" min="10" max="90" step="1" value="18" placeholder="Введіть Ваш вік" required></label>
+			<h3>Якщо у Вас є собака, заповніть наступні форми</h3>
+			<label>Виберіть місяць та рік народження Вашої собаки  <input type="month" id="birtday" name="birthday"></label>
+			<br>
+			<label>Оберіть улюблений колір Вашої собаки  <input type="color" value="#FF0000" name="color"></label>
+			<br>
+			<label>Завантажте Фото Вашої собаки  <input type="file" name="my-file" accept="image/*" multiple></label>
+			<br>
+			<label>Поділіться корисними посиланнями для власників собак  <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30"></label>
+			<br>
+			<h3>Коли Вам зручно отримати результати тесту</h3>
+			<label>Виберіть дату, коли Вам надіслати результати тесту<input type="date" name="date-to-get-results"></label>
+			<br>
+			<label>Виберіть час  <input type="time" name="time-to-get-results" value="18:00" min="10:00" max="20:00"></label>
+			<br>
+			<label>Коментар  <textarea name="textarea" id="textarea" placeholder="Ваш коментар" cols="20" rows="10"></textarea></label>
+			<br>
+			<label><input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" checked>Підписатись на новини</label>
+			<label><input type="checkbox" id="personaldata" name="personaldata" value="personaldata" required>Згода на обробку персональних даних</label>
+			<br>
+			<label><input type="submit"></label>
+			<label><input type="reset"></label>
+			<br>
     </form>
-    <hr>     
-   </main>
-   <footer>
-<a href="https://en.wikipedia.org/wiki/Husky"><img src="img/wikipedia.png" alt="wikipedia-logo"></a>
-<a href="https://www.youtube.com/user/gohanthehusky"><img src="img/youtube.png" alt="youtube-logo"></a>
-<a href="https://www.facebook.com/Siberian-Husky-Dogs-151181134907667/"><img src="img/facebook.png" alt="facebook-logo"></a>
-<a href="https://www.instagram.com/explore/tags/husky/"><img src="img/instagram.png" alt="instagam-logo"></a>
-<br>
+			<hr>
+	</main>
+	<footer>
+		<a href="https://en.wikipedia.org/wiki/Husky"><img src="img/wikipedia.png" alt="wikipedia-logo"></a>
+			<a href="https://www.youtube.com/user/gohanthehusky"><img src="img/youtube.png" alt="youtube-logo"></a>
+				<a href="https://www.facebook.com/Siberian-Husky-Dogs-151181134907667/"><img src="img/facebook.png" alt="facebook-logo"></a>
+					<a href="https://www.instagram.com/explore/tags/husky/"><img src="img/instagram.png" alt="instagam-logo"></a>
+						<br>
 © 2020 Christina Danylyuk
 </footer>
 </body>
+
 </html>
